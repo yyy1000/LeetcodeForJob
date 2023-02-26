@@ -67,6 +67,7 @@ public:
     }
 };
 
-// TODO
 // Some points to improve:
-
+// 1. Destruct auto [pass, total] = q.top();
+// 2. Use operator reload but not new struct to compare: bool operator < (const Ratio& oth) const
+// 3. Use cast but not declare struct use long long
