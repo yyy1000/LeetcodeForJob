@@ -45,4 +45,6 @@ public:
 };
 
 // Summary
-// 1. 
+// 1. We can find: res equals i, so we don't need to declare res
+// 2. If we get upper case of j, the i < mi is not needed.
+// 3. We will add j forever, so extract it.
